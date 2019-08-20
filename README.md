@@ -1,1 +1,3 @@
-# Gestion Tec
+# Gestion Tecnologica
+===
+* Oscar Bautista

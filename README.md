@@ -6,4 +6,7 @@
 * Carlos Fuentes
 
 ## Contenido
+
+### Tareas
 1. Proceso de un producto (BPMN)
+ ![BPNM](Imagenes/BPMN.png)

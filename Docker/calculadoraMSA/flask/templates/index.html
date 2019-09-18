@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora Microservicios</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+
+    <style>
+      .alert {
+        background: green;
+        padding: 1rem;
+        border-radius: 5px;
+        color: white;
+        margin: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Calculadora</h3>
+    </div>
+
+    <!-- Form -->
+    <div class="container">
+      <form action="/total" method="POST">
+        <label>Primer numero</label>
+        <input type="text" name="n1" class="u-full-width"/>
+
+        <label>Segundo Numero</label>
+        <input type="text" name="n2" class="u-full-width"/>
+
+        <label for="Operacion">Operacion</label>
+        <select class="u-full-width" name="op">
+          <option value="suma">Suma</option>
+          <option value="resta">Resta</option>
+          <option value="multi">Multiplicación</option>
+          <option value="div">Division</option>
+        </select>
+
+        <input type="submit" value="calcular" id="calc_btn" />
+        <br />
+        <div class="alert">
+          {{ sum }}
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

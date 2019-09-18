@@ -20,7 +20,7 @@ services:
 
   suma:
     build: ./suma
-    dockerfile: Docker_suma
+    container_name: suma
     ports:
     - "5001:5001"
     depends_on:
@@ -28,7 +28,7 @@ services:
 
   resta:
     build: ./resta
-    dockerfile: Docker_resta
+    container_name: resta
     ports:
     - "5002:5002"
     depends_on:
@@ -36,7 +36,7 @@ services:
 
   multi:
     build: ./multi
-    dockerfile: Docker_multi
+    container_name: multi
     ports:
     - "5003:5003"
     depends_on:
@@ -44,7 +44,7 @@ services:
 
   div:
     build: ./div
-    dockerfile: Docker_div
+    container_name: div
     ports:
     - "5004:5004"
     depends_on:

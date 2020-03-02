@@ -1,4 +1,4 @@
-|# Gestion Tecnologica
+# Gestion Tecnologica
 
 ### Integrantes
 * Oscar Bautista

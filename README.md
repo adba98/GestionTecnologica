@@ -1,4 +1,4 @@
-# Gestion Tecnologica
+|# Gestion Tecnologica
 
 ### Integrantes
 * Oscar Bautista
@@ -9,4 +9,6 @@
 
 ### Tareas
 1. Proceso de un producto (BPMN)
- ![BPNM](Imagenes/BPMN.pathpng)
+2. Docker microservicios
+3. BDD (behave)
+4. Vigilancia tecnológica (Docker DSpace)

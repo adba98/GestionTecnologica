@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Propiedad Intelectual</title>
+  <link rel="shortcut icon" href="img/pi.png" />
 
   <script src="jsLogica/TweenMax.min.js"></script>
   <script src="jsLogica/Winwheel.min.js"></script>
@@ -59,12 +60,21 @@
         <div class="span6">
           <h2><strong>Propiedad <span class="highlight primary">Intelectual</span></strong></h2>
           <p class="lead">
-            Puntaje: <div id="puntaje">3</div>
+            Puntaje: <div id="puntaje"><h3>0</h3></div>
           </p>
+          <p class="lead">
+            Intentos: <div id="intentos"><h3>3</h3></div>
+          </p>
+          
             <div class="text">
-              <input class="btn btn-color btn-success" type="button" 
+              <input class="btn btn-color btn-success" id="girar" type="button" 
               value="Girar" onclick="ruleta.startAnimation();" />
-            </div>    
+            </div>
+            <br>
+            <h1><div id = "pregunta"></div></h1>
+            <p> <div id = "respuestas"></div> </p>
+            <div id = "btnResp"></div>
+
         </div>
         <div class="span6">
 
@@ -90,7 +100,7 @@
         <div class="row">
           <div class="span6">
             <p>
-              Oscar Bautista 2020
+              Oscar Bautista 20142020213
             </p>
           </div>
           <div class="span6">

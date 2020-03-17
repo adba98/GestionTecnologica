@@ -6,11 +6,11 @@ var ctx = canvas.getContext("2d");
 var puntaje = 0;
 var vidas = 3;
 var preguntasA =[
-    "1A","2A","3A"
+    "La propiedad intelectual se compone de:","La propiedad intelectual se compone de:","La propiedad intelectual se compone de:"
 ];
 
 var preguntasB =[
-    "1B","2B","3B"
+    "cual de los siguientes NO hace parte de los derechos de obtentor:","cual de los siguientes NO hace parte de los derechos de obtentor:","cual de los siguientes NO hace parte de los derechos de obtentor:"
 ];
 
 var preguntasC =[

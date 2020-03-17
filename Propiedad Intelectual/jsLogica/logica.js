@@ -6,53 +6,53 @@ var ctx = canvas.getContext("2d");
 var puntaje = 0;
 var vidas = 3;
 var preguntasA =[
-    "La propiedad intelectual se compone de:","La propiedad intelectual se compone de:","La propiedad intelectual se compone de:"
+    "La propiedad intelectual se compone de:","La propiedad intelectual se compone de:",""
 ];
 
 var preguntasB =[
-    "cual de los siguientes NO hace parte de los derechos de obtentor:","cual de los siguientes NO hace parte de los derechos de obtentor:","cual de los siguientes NO hace parte de los derechos de obtentor:"
+    "cual de los siguientes NO hace parte de los derechos de obtentor:","","cual de los siguientes NO hace parte de los derechos de obtentor:"
 ];
 
 var preguntasC =[
-    "1C","2C","3C"
+    "El contenido de la propiedad intelectual está formado por:","2C","3C"
 ];
 
 var preguntasD =[
-    "1D","2D","3D"
+    "1D","La propiedad intelectual se compone de:","3D"
 ];
 
 var preguntasE =[
-    "1E","2E","3E"
+    "1E","2E","cual de los siguientes NO hace parte de los derechos de obtentor:"
 ];
 
 var respuestasA = [
-    ["a1A","b1A","c1A","d1A"],
+    ["propiedad industrial, derechos de autor","modelos de utilidad, circuitos integrados","patentes, secretos ","derechos de obtenedores, esquemas de administración"],
     ["a2A","b2A","c2A","d2A"],
     ["a3A","b3A","c3A","d3A"]
 ];
 
 var respuestasB = [
-    ["a1","b1","c1","d1"],
+    ["proteccion","Novedad","Distinción","Denominación"],
     ["a2","b2","c2","d2"],
     ["a3","b3","c3","d3"]
 ];
 
 var respuestasC = [
-    ["a1","b1","c1","d1"],
+    ["Ley organica","Real Decreto de ley","","d1"],
     ["a2","b2","c2","d2"],
     ["a3","b3","c3","d3"]
 ];
 
 var respuestasD = [
     ["a1","b1","c1","d1"],
-    ["a2","b2","c2","d2"],
+    ["proteccion","Novedad","Distinción","Denominación"],
     ["a3","b3","c3","d3"]
 ];
 
 var respuestasE = [
     ["a1","b1","c1","d1"],
     ["a2","b2","c2","d2"],
-    ["a3","b3","c3","d3"]
+    ["propiedad industrial, derechos de autor","modelos de utilidad, circuitos integrados","patentes, secretos ","derechos de obtenedores, esquemas de administración"]
 ];
 
 function DibujarRuleta() {

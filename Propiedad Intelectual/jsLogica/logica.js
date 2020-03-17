@@ -6,53 +6,53 @@ var ctx = canvas.getContext("2d");
 var puntaje = 0;
 var vidas = 3;
 var preguntasA =[
-    "La propiedad intelectual se compone de:","La propiedad intelectual se compone de:",""
+    "La propiedad intelectual se compone de:","cual de los siguientes NO hace parte de los derechos de obtentor:","Cual es la figura clasica de la propiedad intelectual:"
 ];
 
 var preguntasB =[
-    "cual de los siguientes NO hace parte de los derechos de obtentor:","","cual de los siguientes NO hace parte de los derechos de obtentor:"
+    "cual de los siguientes NO hace parte de los derechos de obtentor:","Cual es la figura clasica de la propiedad intelectual:","La propiedad intelectual se compone de:"
 ];
 
 var preguntasC =[
-    "El contenido de la propiedad intelectual está formado por:","2C","3C"
+    "Cual es la figura clasica de la propiedad intelectual:","En que año se expido el Tratado sobre el Derecho de Patentes: ","De los siguentes no es un requicito para obtener una patente: "
 ];
 
 var preguntasD =[
-    "1D","La propiedad intelectual se compone de:","3D"
+    "De los siguentes no es un requicito para obtener una patente:","La propiedad intelectual se compone de:","Cual de los siguentes es el tipo de proteccion a la propiedad industrial con mas duracion: "
 ];
 
 var preguntasE =[
-    "1E","2E","cual de los siguientes NO hace parte de los derechos de obtentor:"
+    "En que año se expido el Tratado sobre el Derecho de Patentes: ","De los siguentes no es un requicito para obtener una patente: ","Cual de los siguentes es el tipo de proteccion a la propiedad industrial con mas duracion: "
 ];
 
 var respuestasA = [
     ["propiedad industrial, derechos de autor","modelos de utilidad, circuitos integrados","patentes, secretos ","derechos de obtenedores, esquemas de administración"],
-    ["a2A","b2A","c2A","d2A"],
-    ["a3A","b3A","c3A","d3A"]
+    ["proteccion","Novedad","Distinción","Denominación"],
+    ["Patente","Marca","Eslogan","Idea"]
 ];
 
 var respuestasB = [
     ["proteccion","Novedad","Distinción","Denominación"],
-    ["a2","b2","c2","d2"],
-    ["a3","b3","c3","d3"]
+    ["Patente","Marca","Eslogan","Idea"],
+    ["propiedad industrial, derechos de autor","modelos de utilidad, circuitos integrados","patentes, secretos ","derechos de obtenedores, esquemas de administración"]
 ];
 
 var respuestasC = [
-    ["Ley organica","Real Decreto de ley","","d1"],
-    ["a2","b2","c2","d2"],
-    ["a3","b3","c3","d3"]
+    ["Patente","Marca","Eslogan","Idea"],
+    ["1996","1995","1994","1993"],
+    ["Grado industrial","Novedad universal"," Grado inventivo","Aplicabilidad industrial"]
 ];
 
 var respuestasD = [
-    ["a1","b1","c1","d1"],
+    ["Grado industrial","Novedad universal"," Grado inventivo","Aplicabilidad industrial"],
     ["proteccion","Novedad","Distinción","Denominación"],
-    ["a3","b3","c3","d3"]
+    ["Patente de inovacion","Marca","Modelo de Unidad","Diseños industriales"]
 ];
 
 var respuestasE = [
-    ["a1","b1","c1","d1"],
-    ["a2","b2","c2","d2"],
-    ["propiedad industrial, derechos de autor","modelos de utilidad, circuitos integrados","patentes, secretos ","derechos de obtenedores, esquemas de administración"]
+    ["1996","1995","1994","1993"],
+    ["Patente de inovacion","Marca","Modelo de Unidad","Diseños industriales"],
+    ["Grado industrial","Novedad universal"," Grado inventivo","Aplicabilidad industrial"]
 ];
 
 function DibujarRuleta() {
